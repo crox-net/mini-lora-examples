@@ -63,7 +63,7 @@ My use case is i.a. off-grid sensors, so I was very interested in a low-power co
 
 This means that it's actually very easy to achieve a low-power configuration with the Mini Lora and an [Arduino Pro Mini](https://www.sparkfun.com/products/11114) board from Sparkfun. The on-board regulator and the power LED can be disabled on the Arduino simply by removing a solder joint:
 
-![arduino pro mini solder joint](images/arduino-mini-with-solder-joint.jpg) ![with solder joint removed](solder-joint-removed.jpg)
+![arduino pro mini solder joint](images/arduino-mini-with-solder-joint.jpg) ![with solder joint removed](images/solder-joint-removed.jpg)
 
 With this simple change, I measure less than 40 uA while in sleep mode. (The solder joint might not be available on "clone" boards - in that case you might need to unsolder the regulator and the LED, or cut the corresponding traces to achieve the same results.)
 
